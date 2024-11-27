@@ -1,0 +1,29 @@
+
+.grok1{
+    border-bottom: 1px solid rgb(135, 133, 133);
+    padding: 20px;
+}
+.aero{
+    color: white;
+    font-size: 30px;
+}
+
+.grok2{
+    padding: 20px;
+    text-align: center;
+
+    & h2{
+        color: white;
+    }
+    p {
+        color:rgb(135, 133, 133); 
+        font-size: 22px;
+    }
+    button{
+        color: black;
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 15px;
+        font-weight: bold;
+    }
+}

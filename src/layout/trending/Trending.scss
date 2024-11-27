@@ -1,0 +1,42 @@
+.trend{
+    padding: 15px;
+    text-align: start;
+
+    & p {
+        color: rgb(100, 99, 99);
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    & h4{
+        color: white;
+        font-size: 18px;
+        margin: 0px;
+    }
+}
+
+.trend1{
+    margin: 0px;
+    position: sticky;
+
+    & img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    & h2{
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+    }
+    & p{
+        margin-top: 5px;
+    }
+    
+}
+
+.trend2{
+    margin: 0px;
+  
+}

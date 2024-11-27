@@ -1,0 +1,53 @@
+.img{
+    width: 80%;
+    height: 200px;
+}
+
+
+
+.pre_div{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+
+    & h1{
+        color: white;
+        text-align: center;
+    }
+    
+
+}
+.pp {
+    color: rgb(104, 103, 103);
+}
+.tin_div{
+    gap: 20px;
+    padding: 15px;
+   
+    & button{
+        background-color: rgb(60, 59, 59);
+        color: white;
+        border-radius: 8px;
+        border:1px solid black;
+
+    }
+    & button:active{
+        background-color: rgb(11, 10, 10);
+    }
+}
+
+.card_div{
+    display: flex;
+    gap: 15px;
+}
+.card{
+    width: 35%;
+}
+.card-header{
+    font-style: initial;
+}
+
+.card-body p{
+    text-align: start;
+
+}

@@ -1,0 +1,272 @@
+aside{
+    // display: grid;
+    grid-area: aside;
+    border: 1px solid rgb(205, 194, 194); 
+    margin-left: 265px;
+   overflow: auto;
+   width: 70%;
+    
+  }
+  .side_div{
+    // overflow: auto;
+    // scrollbar-width: none;
+   
+    overflow: auto;
+    scrollbar-width: none;
+
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    //  gap: 30px;
+    border: 1px solid whitesmoke;
+    // border: 1px solid red;
+    // height: 50px;
+    width: 100%;
+  position: sticky;
+  
+  top: 0;
+   
+
+    
+  }
+  .nav1{
+    color: rgb(206, 180, 180);
+    // border: 1px solid red;
+    width: 45%;
+    text-align: center;
+    // padding: 3px;
+    height: 40px;
+   
+   
+  }
+  
+  .nav-item:hover{
+width: 45%;
+    cursor: pointer;
+    background-color: rgb(18, 14, 14);
+    color: white;
+    // font-weight: 500;
+  }
+  .nav1  p{
+    border-bottom: 4px solid transparent;
+    width: fit-content;
+    margin:0 auto;
+    padding: 10px;
+  }
+  .nav1 p:hover{
+    border-bottom: 4px solid rgb(29,155,240);
+    width: fit-content;
+    margin:auto;
+    // padding: 10px;
+  }
+
+ .nav-item{
+  // border: 1px solid red;
+  width: 45%;
+  // list-style: none;
+  text-decoration: none;
+  // background-color: rgb(18, 14, 14);
+
+ 
+ }
+
+  .happning_div{
+  //  border: 1px solid red;
+   padding: 20px;
+  }
+  .what_div{
+    display: flex;
+    gap: 10px;
+
+    & img{
+      width: 3%;
+      margin-top: 10px;
+      height: 40px;
+      color: white;
+      border-radius: 50px;
+      
+    }
+    & input{
+      width: 50%;
+      background-color: black;
+      border: none;
+      font-size: 25px;
+      font-weight: lighter;
+      color: white;
+
+}
+   
+
+    & input:focus{
+      outline: none;
+    }
+
+   
+  }
+  .reply_div {
+    margin-top: 12px;
+
+    & p{
+      margin-left:30px ;
+      font-size: 15px;
+      color: rgb(29,155,240);
+    }
+
+  }
+  hr{
+    color: white;
+    width: 90%;
+    margin: auto;
+  }
+
+  .emoji_div{
+    display: flex;
+    justify-content: space-between;
+    // gap: 10px;
+    color: rgb(29,155,240);
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+
+  .emoji1_div{
+    display: flex;
+    gap: 25px;
+    margin-left: 35px;
+   
+  }
+  .emo {
+    font-size: 20px;
+    color: rgb(29,155,240);
+  }
+  .emo:hover{
+    cursor: pointer;
+  }
+  .post{
+    margin-top:-10px;
+    width: 70px;
+    text-align: center;
+    opacity: 0.4;
+    // color: rgb(29,155,240);
+    
+    & button{
+      height:35px;
+      background-color: rgb(51, 160, 233);
+      border-radius: 10px;
+    }
+  }
+  .hr{
+    width: 100%;
+  }
+
+
+
+
+  // post name id tik css
+
+  .post_div{
+    border-bottom: 1px solid  rgb(87, 84, 84);
+    
+    
+   
+  }
+
+  .up_div{
+    // border: 1px solid yellow;
+    display: flex;
+    padding: 10PX;
+
+  }
+  .profile_div{
+    width:9%;
+    // height: 90px;
+    // border: 1px solid yellow;
+    
+  }
+  .userimg{
+    width: 65%;
+    border-radius: 50%;
+  }
+
+  .name_div{
+    width: 60%;
+    display: flex;
+    color: white;
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: -18px;
+
+    & span {
+      font-size: 18px;
+      color:rgb(29,155,240);
+    }
+    & h6 {
+      font-size: 18px;
+      margin-top: 3px;
+      font-weight: light;
+      color: rgb(87, 84, 84);
+    }
+    & p{
+      font-size: 13px;
+      margin-top: 5px;
+      font-weight: light;
+      color: rgb(87, 84, 84);
+    }
+  }
+  .more_div{
+    width: 30%;
+    text-align: end;
+    color: white;
+    margin-top: 7px;
+    font-size: 20px;
+    color: rgb(87, 84, 84);
+    margin-right: 20px;
+  }
+
+
+
+  .mid_div{
+    width: 90%;
+    margin: auto;
+    
+    
+  }
+  .userpost{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    border-radius: 20px;
+  }
+  .text{
+    color: white;
+    margin-top:-22px;
+    margin-left: 25px;
+
+  }
+
+  .bottom_div{
+    width: 100%;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+& p{
+  font-size: 20px;
+  color: rgb(87, 84, 84);
+}
+
+ & p:hover{
+  cursor: pointer;
+}
+
+
+  }
+  .share{
+    display: flex;
+    gap: 10px;
+  }
+
+
+

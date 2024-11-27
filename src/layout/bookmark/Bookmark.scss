@@ -1,0 +1,58 @@
+.Bm_div{
+    margin: 15px;
+
+    & h4{
+        font-size: 22px;
+        color: white;
+    }
+    & p {
+  color: rgb(121, 121, 121);
+}
+}
+
+.search_icon{
+    color: white;
+    font-size: 16px;
+    margin-top: -2px;
+
+  }
+  .input_div{
+    border: 1px solid rgb(29, 29, 29);
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 85%;
+    margin: auto;
+    height: 45px;
+
+    input{
+        width: 80%;
+        outline: none;
+        border: none;
+        background-color: black;
+        margin-left: 20px;
+        color: white;
+        
+    }
+     
+}
+  .input_div:hover{
+    cursor: pointer;
+  }
+
+  .save_div{
+    width: 45%;
+    text-align: center;
+    margin: 50px auto;
+    text-align: left;
+
+    & h2{
+      color: white;
+    }
+
+    & span {
+      color: rgb(84, 84, 84);
+      
+    }
+  }

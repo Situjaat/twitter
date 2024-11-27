@@ -1,0 +1,93 @@
+.explore {
+  position: sticky;
+  top: 2px;
+  z-index: +2;
+
+}
+.search_icon{
+  color: white;
+  font-size: 22px;
+}
+
+.inpu_div{
+  // border: 1px solid blue;
+  padding: 10px;
+  margin-top: 5px;
+  width: 90%;
+  display: flex;
+  // justify-content: space-between;
+  gap: 20px;
+  margin: auto;
+   
+}
+
+.search_div{
+  background-color:  rgb(27, 24, 24);
+  width: 90%;
+  border-radius: 30px;
+  height: 45px;
+  padding: 7px 10px;
+  margin: auto;
+
+
+  & input{
+    width: 93%;
+    outline: none;
+    border: none;
+    background-color: rgb(27, 24, 24);
+    margin-left: 10px;
+    color: white;
+}
+
+& .focused{
+  border-color: rgb(22, 124, 206);
+}
+}
+.input_div:hover{
+  cursor: pointer;
+}
+
+
+.setting{
+    font-size: 20px;
+    color: white;
+    margin-bottom:40px;
+    font-weight: bolder;
+   
+    
+}
+.back{
+  font-size: 25px;
+  color: white;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 0;
+  margin: auto;
+}
+
+
+
+.nav { 
+  
+  border: 1px solid black;
+  padding: 10px;
+  background-color: black;
+  border-bottom:1px solid white;
+
+
+
+  & button{
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(98, 96, 96);
+  }
+
+  & button:hover {
+    color: white;
+  }
+
+  & button:active{
+    background-color:rgb(23, 23, 23);
+    // color: red;
+  }
+}
